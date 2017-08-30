@@ -1,0 +1,26 @@
+setwd("C:/meaningful folders/VE_H3N2glycosylation_revision/H3N2_glycosylation/Serology/result")
+
+bsim_2010_K = read.table("similarities_b_2010_K.csv", header=T, sep=',')
+plot(bsim_2010_K)
+png("siteB_smilarity_7810_K.png", width=8, height=4, unit="in", res=600)
+plot(bsim_2010_K, ylab = "siteB_similarity", pch=16)
+dev.off()
+savehistory("C:/meaningful folders/VE_H3N2glycosylation_revision/H3N2_glycosylation/Serology/result/similarity_plot.R")
+
+asim_2010_K = read.table("similarities_a_2010_K.csv", header=T, sep=',')
+plot(asim_2010_K)
+png("siteA_smilarity_7810_K.png", width=8, height=4, unit="in", res=600)
+plot(asim_2010_K, ylab = "siteA_similarity", pch=16)
+dev.off()
+
+bsim_2010_Any = read.table("similarities_b_2010_Any.csv", header=T, sep=',')
+plot(bsim_2010_Any)
+png("siteB_smilarity_6810_Any_gly.png", width=8, height=4, unit="in", res=600)
+plot(bsim_2010_Any, ylab = "siteB_similarity", pch=16)
+dev.off()
+
+asim_2010_Any = read.table("similarities_a_2010_Any.csv", header=T, sep=',')
+plot(asim_2010_Any)
+png("siteA_smilarity_6810_Any_gly.png", width=8, height=4, unit="in", res=600)
+plot(asim_2010_Any, ylab = "siteA_similarity", pch=16)
+dev.off()

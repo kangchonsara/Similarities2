@@ -1,0 +1,19 @@
+data
+ncbi from 1968 to 2011
+gisaid from 2012 to 2017
+use us when there are >= 70 sequences
+
+data for test imprinting
+T or K
+gly or ungly
+B similarity without 160
+A similarity
+num B positions
+num A positions
+ 
+
+
+ferret titer to 160K after vaccinated with 160T was as high as titer to 160T.
+People who are first exposed to 160T target site A, and it works quite well.
+It means even though there are many glycosylated sites, site A is targeted. 
+So 160K titer after 2014 will decrease just 
